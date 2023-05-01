@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Type "npm run start" in the home directory to run locally, git commit to push to AWS Amplify.
         </p>
         <a
           className="App-link"
