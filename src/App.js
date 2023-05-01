@@ -5,18 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img width={400} height={600} src={"/images/KalleenSabrina.jpg"}/>
         <p>
-          Type "npm run start" in the home directory to run locally, git commit to push to AWS Amplify.
+          Type "npm run start" in the home directory to run locally, git commit to push to AWS Amplify. Store any static images you want in the /public folder and reference them by their path in that folder (e.g. /public/img/painting.jpg becomes /img/painting.jpg). Enjoy.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
